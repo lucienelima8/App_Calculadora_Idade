@@ -22,14 +22,72 @@ main {
     background-color: #fff;
     /*max-width: 26rem;*/
     justify-content: center;
-    /*border-radius: 1rem;*/
+    border-radius: 5px 5px 50px 5px;
     /*padding-bottom: 1rem;*/
-    padding: 0 1rem 1rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     
 }
 
+/*Section com todos os label e input*/
+section {
+    display: flex;
+
+}
+
+/*Cada label e input está dentro de um article*/
+article {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+label {
+    
+
+}
 
 
+input {
+    font-weight: bolder;
+    margin-top: .5rem;
+    padding-left: .2rem;
+
+   
+}
+
+
+input:placeholder-shown {
+    font-weight: lighter;
+    font-size: .8rem;
+    padding-left: .2rem;
+}
+
+
+hr {
+    margin-top: 1rem;
+    color: #ccc;
+
+}
+
+div {
+    
+
+}
+
+p {
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
+span {
+    color: violet;
+    font-weight: bolder;
+    margin-right: .5rem;
+    font-size: 2rem;
+
+}
 
 
 
