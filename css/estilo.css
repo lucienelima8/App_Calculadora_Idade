@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #cccccc5d;
+    width: 100%; /*largura de 100% da página*/
+    height: 100vh; /*altura total da página*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /*para descolar da borda*/
+
+
+
+}
+
+main {
+    background-color: #fff;
+    /*max-width: 26rem;*/
+    justify-content: center;
+    /*border-radius: 1rem;*/
+    /*padding-bottom: 1rem;*/
+    padding: 0 1rem 1rem 1rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Esse trabalho foi feito por Luciene Lima*/
