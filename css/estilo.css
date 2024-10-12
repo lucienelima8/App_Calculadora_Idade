@@ -31,6 +31,10 @@ main {
 /*Section com todos os label e input*/
 section {
     display: flex;
+    /*position: relative;*
+    align-items: center;*/
+
+    
 
 }
 
@@ -39,9 +43,16 @@ article {
     display: flex;
     flex-direction: column;
     margin-right: 1rem;
+    position: relative;
+    /*align-items: center;*/
+
 }
 
 label {
+    font-weight: bolder;
+    text-transform:uppercase; /*caixa alta*/
+    position: relative;
+    align-items: center;
     
 
 }
@@ -51,6 +62,14 @@ input {
     font-weight: bolder;
     margin-top: .5rem;
     padding-left: .2rem;
+    border: 1px solid hsl(0, 0%, 94%);
+    border-radius: 5px;
+    outline: none;
+    width: 8vw;
+    padding: .8rem;
+    align-items: center;
+
+    
 
    
 }
@@ -78,15 +97,16 @@ hr {
     position: absolute;
     width: 3.5rem;
     height: 8vh;
-    right: 26rem;
-    top: 15rem;
+    right: 30rem;
+    top: 16rem;
     cursor: pointer;
 
 
 }
 
 .btn:hover {
-    
+    background-color: black;
+
 
 }
 
