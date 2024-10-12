@@ -19,10 +19,11 @@ body {
 }
 
 main {
+    
     background-color: #fff;
     /*max-width: 26rem;*/
     justify-content: center;
-    border-radius: 5px 5px 50px 5px;
+    border-radius: 5px 5px 150px 5px;
     /*padding-bottom: 1rem;*/
     padding: 2rem 1rem 1rem 1rem;
     
@@ -97,8 +98,8 @@ hr {
     position: absolute;
     width: 3.5rem;
     height: 8vh;
-    right: 30rem;
-    top: 16rem;
+    right: 31rem;
+    top: 14rem;
     cursor: pointer;
 
 
@@ -110,6 +111,12 @@ hr {
 
 }
 
+/*Imagem do botão*/
+img {
+    /*color: #ccc;*/
+    width: 2vw;
+}
+
 div {
     
 
@@ -118,15 +125,18 @@ div {
 p {
     padding-bottom: 1rem;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 3rem;
 
 }
 
+/*Onde aparecerá dias, meses e anos até a data presente*/
 span {
-    color: violet;
+    /*color: hsl(228, 45%, 44%);*/
+    color: hsl(259, 900%, 55%);
     font-weight: bolder;
-    margin-right: .5rem;
-    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    font-size: 3rem;
 
 }
 
