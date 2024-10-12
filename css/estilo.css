@@ -69,6 +69,27 @@ hr {
 
 }
 
+/*Botão*/
+.btn {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    border: none;
+    /*position: relative;*/
+    position: absolute;
+    width: 3.5rem;
+    height: 8vh;
+    right: 26rem;
+    top: 15rem;
+    cursor: pointer;
+
+
+}
+
+.btn:hover {
+    
+
+}
+
 div {
     
 
