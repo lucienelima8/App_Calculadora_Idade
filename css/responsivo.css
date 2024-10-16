@@ -1,0 +1,276 @@
+ /*Responsividade*/
+
+@media screen and (max-width: 1115px) {
+
+    body {
+
+        width: 100%; /*largura de 100% da página*/
+        height: 100vh; /*altura total da página*/
+        margin: 1rem;
+
+    }
+
+    /*Botão*/
+    .btn {
+        width: 3.5rem;
+        height: 8vh;
+        right: 23rem;
+        top: 17.2rem;
+             
+    }
+
+    
+    p {
+        padding-bottom: 1rem;
+        font-weight: bolder;
+        font-size: 2rem;
+    
+    }
+
+    /*Onde aparecerá dias, meses e anos até a data presente*/
+    span {
+        margin-left: 1rem;
+        margin-right: 2rem;
+        font-size: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width: 845px) {
+
+    /*Botão*/
+    .btn {
+        width: 3.5rem;
+        height: 9vh;
+        right: 17rem;
+        top: 10.5rem;
+             
+    }
+
+
+}
+
+/*Telas menores*/
+@media screen and (max-width: 400px) {
+
+    body {
+
+        width: 100%; /*largura de 100% da página*/
+        height: 80vh; /*altura total da página*/
+        margin: 1rem;
+
+    }
+
+    main {
+        justify-content: center;
+        border-radius: 5px 5px 100px 5px;
+        padding: 2rem 1rem 1rem 1rem;
+        max-width: 400rem;
+        
+
+    }
+
+
+
+    label {
+        font-weight: bolder;
+        text-transform:uppercase; /*caixa alta*/
+        position: relative;
+        align-items: center;
+        font-size: .8rem;
+        
+    
+    }
+    
+    
+    input {
+        font-weight: bolder;
+        /*padding-left: .2rem;*/
+        border: 1px solid hsl(0, 0%, 94%);
+        border-radius: 5px;
+        outline: none;
+        width: 20vw;
+        padding: .8rem;
+        align-items: center;
+        font-size: .7rem;
+   
+              
+    }
+    
+    
+    input:placeholder-shown {
+        font-weight: lighter;
+        font-size: .7rem;
+        padding-left: .2rem;
+        
+    }
+    
+    
+    /*Botão*/
+    .btn {
+        width: 3.5rem;
+        height: 5vh;
+        right: 2rem;
+        top: 19rem;
+
+             
+    }
+
+    .btn:hover {
+        background-color: black;
+    
+    
+    }
+
+
+    /*Imagem do botão*/
+    img {
+        width: 5vw;
+    
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Esse trabalho foi feito por Luciene Lima*/
