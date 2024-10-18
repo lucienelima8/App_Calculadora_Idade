@@ -22,6 +22,8 @@ function calcular_idade() {
 
 
 
+    //Abaixo é pra mostar quantos anos, meses e dias o usuário tem
+
     //variáveis pra receber a const today (que recebe a data digitada pelo usuário)
     //let years recebe today.getFullYear (variável  recebe ano que usuário digitar - ano atual)
     let years = today.getFullYear() - niver.getFullYear(); //getFullYear() pra pegar o ano atual
