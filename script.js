@@ -1,5 +1,8 @@
 function calcular_idade() {
 
+        //DECLARANDO VARIÁVEIS
+
+
     //dia
     const dia_nascimento = parseInt(document.getElementById("day").value);
 
@@ -20,6 +23,9 @@ function calcular_idade() {
     const niver = new Date(ano_nascimento, mes_nascimento - 1, dia_nascimento);
 
 
+
+
+        //FUNÇÃO CALCULAR QUANTOS DIAS, MESES E ANOS O USUÁRIO TEM DE VIDA:
 
 
     //Abaixo é pra mostar quantos anos, meses e dias o usuário tem
@@ -60,6 +66,8 @@ function calcular_idade() {
 
 
 
+
+        //RESPOSTA NO SPAN DAS QUANTIDADES DE DIAS, ANOS E MESES DE VIDA DO USUÁRIO
     
     //Respostas no span:
 
