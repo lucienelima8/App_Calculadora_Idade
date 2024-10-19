@@ -101,7 +101,7 @@ hr {
     /*position: relative;*/
     position: absolute;
     width: 3.5rem;
-    position: fixed;
+    /*position: fixed;*/
     height: 8vh;
     right: 31rem;
     top: 15rem;
