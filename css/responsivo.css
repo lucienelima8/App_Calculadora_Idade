@@ -152,9 +152,9 @@
     .btn {
         width: 3.5rem;
         height: 5vh;
-        position: fixed;
+        /*position: fixed;*/
         right: 3rem;
-        top: 20rem;
+        top: 15rem;
 
              
     }
