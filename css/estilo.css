@@ -69,6 +69,7 @@ input {
     width: 8vw;
     padding: .8rem;
     align-items: center;
+    /*color: hsl(259, 900%, 55%);*/
 
    
    
@@ -79,6 +80,10 @@ input:placeholder-shown {
     font-weight: lighter;
     font-size: .8rem;
     padding-left: .2rem;
+}
+
+input:hover {
+    border: 1px solid hsl(259, 900%, 55%) ;
 }
 
 

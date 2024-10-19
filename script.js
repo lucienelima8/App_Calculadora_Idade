@@ -1,6 +1,6 @@
 function calcular_idade() {
 
-        //DECLARANDO VARIÁVEIS
+        //DECLARANDO VARIÁVEIS DE ENTRADAS DO USUÁRIO
 
 
     //dia
