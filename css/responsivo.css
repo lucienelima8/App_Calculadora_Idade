@@ -6,16 +6,21 @@
 
         width: 100%; /*largura de 100% da página*/
         height: 100vh; /*altura total da página*/
-        margin: 1rem;
+        /*margin: 1rem;*/
 
+    }
+
+    input:hover {
+        border: 1px solid hsl(259, 900%, 55%) ;
     }
 
     /*Botão*/
     .btn {
         width: 3.5rem;
         height: 8vh;
-        right: 23rem;
-        top: 17.2rem;
+        position: fixed;
+        right: 24rem;
+        top: 16.2rem;
              
     }
 
@@ -36,29 +41,61 @@
 
 }
 
+/*Telas menores(celular na horizontal)*/
+@media screen and (max-width: 844px) {
 
-@media screen and (max-width: 845px) {
+    input {
+        font-weight: bolder;
+        border: 1px solid hsl(0, 0%, 94%);
+        border-radius: 5px;
+        outline: none;
+        width: 20vw;
+        padding: .2rem;
+        align-items: center;
+        font-size: 1rem;
+   
+              
+    }
+
+
+    input:hover {
+        border: 1px solid hsl(259, 900%, 55%) ;
+    }
 
     /*Botão*/
     .btn {
         width: 3.5rem;
         height: 9vh;
-        right: 17rem;
-        top: 10.5rem;
+        position: fixed;
+        right: 9rem;
+        top: 9.2rem;
              
     }
 
 
 }
 
-/*Telas menores*/
+@media (max-width: 700px) {
+    /*Botão*/
+    .btn {
+        height: 5vh;
+        position: fixed;
+        right: 7rem;
+        top: 10rem;
+          
+    }
+
+
+}
+
+/*Telas menores(celular na vertical)*/
 @media screen and (max-width: 400px) {
 
     body {
 
         width: 100%; /*largura de 100% da página*/
         height: 80vh; /*altura total da página*/
-        margin: 1rem;
+        /*margin: 1rem;*/
 
     }
 
@@ -97,7 +134,7 @@
    
               
     }
-    
+        
     
     input:placeholder-shown {
         font-weight: lighter;
@@ -105,14 +142,19 @@
         padding-left: .2rem;
         
     }
+
+    input:hover {
+        border: 1px solid hsl(259, 900%, 55%) ;
+    }
     
     
     /*Botão*/
     .btn {
         width: 3.5rem;
         height: 5vh;
-        right: 2rem;
-        top: 19rem;
+        position: fixed;
+        right: 3rem;
+        top: 15rem;
 
              
     }
@@ -133,6 +175,19 @@
 
 }
 
+
+@media (max-width: 390px) {
+    /*Botão*/
+    .btn {
+        height: 5vh;
+        position: fixed;
+        right: 3rem;
+        top: 18rem;
+          
+    }
+
+
+}
 
 
 

@@ -101,9 +101,10 @@ hr {
     /*position: relative;*/
     position: absolute;
     width: 3.5rem;
+    position: fixed;
     height: 8vh;
     right: 31rem;
-    top: 14rem;
+    top: 15rem;
     cursor: pointer;
 
 
